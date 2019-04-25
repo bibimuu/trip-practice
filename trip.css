@@ -19,7 +19,6 @@ header {
   background-position: center;
   height: 100vh;
 }
-/* 下２つは同じだから後で何もなければ合体すること */
 
 .header-cover-comment {
   position: absolute;
@@ -39,13 +38,8 @@ h1 {
   word-spacing: 3px;
 } 
 
-.btn:hover,
-.btn:active {
-  
-}
 
-.btn:link,
-.btn:visited {
+.btn {
   font-size: 150%;
   color: #ffffff;
   font-weight: 300;
@@ -54,11 +48,9 @@ h1 {
   display: inline-block;
   padding: 10px;
   text-decoration: none;
-  background-color: #eec29c;
+  background-color:  #f0a462a6; 
   border-radius: 80px;
 }
-
-
 
 
 /* li {

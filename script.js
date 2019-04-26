@@ -10,5 +10,16 @@ $(document).ready(function () {
   }, function() {
     $(this).css('border-bottom', 'none');
   });
+
   
+  $('.info').slick({
+    autoplay: true,
+    autoplaySpeed: 5000,
+    centerMode: true,
+    centerPadding: 20,
+ 　　arrows: true,
+ 　　prevArrow:'<div class="prev">PREV</div>',
+ 　　nextArrow:'<div class="next">NEXT</div>'
+    });
+
 });

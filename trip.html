@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <meta charset="UTF-8">
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="trip.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">
+  <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+</head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="slick-1.8.1/slick/slick.js"></script>
   <title>旅行先を見つけよう</title>
 </head>
 <body>
@@ -14,7 +19,7 @@
       <div class="row">
           <img src="company-logo.png" class="company-logo">
           <ul div class="header-list">
-              <li><a href="fake">お知らせ</a></li>
+              <li><a href="#main-info">お知らせ</a></li>
               <li><a href="fake">行き先を決める</a></li>
               <li><a href="fake">採用情報</a></li>
               <li><a href="fake">お問い合わせ</a></li>
@@ -25,24 +30,37 @@
         <h1>Every day is a new day.</h1>
         <a class="btn" href="fake">Make your trip</a>
       </div>
-      
-
-    <!-- <div class="header-logo"></div>
-
-       <>
-        
-      </div> -->
-    
-    
-    
-
   </header>
 
- <!-- <div class="main">
+  <section class="main" id="main-info">
+    <div class="row">
+      <h2>お知らせ</h2>
+      <div class="info">
+        <div class="block">
+        <img src="company-logo.png">
+        <p>こんにちは！私たちは、あなたの旅を作るお手伝いする最新の架空の会社です。サービスとしては、ちょっと微妙だけど、触ってくれると嬉しいです。</p>
+        </div>
+        <div class="block">
+        <img src="award-1714292_640.jpg">
+        <p>この架空の会社の事業がプラチナゴールドアワードに、ノミネートされました！やったね！</p>
+        </div>
+        <div class="block">
+        <img src="job-2860035_640.jpg" class="infoThree">
+        <p>新卒・中途採用が始まりました。ぜひ、ご応募ください。<br>あなたからの応募をお待ちしております。</p>
+        </div>
+        <div class="block">
+        <img src="thank-you-1428147_640.png">
+        <p>最後まで読んでくれてありがとうございます。大したことは特に書いていないので、次に進んでください。</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
  
 
-  <div class="information">インフォメーション</div>
+ 
+
+  <!-- <div class="information">インフォメーション</div>
   <div class="tripPlan">行き先を決める</div>
   <div class="recruit">採用情報</div>
   <div class="contact-form">お問い合わせ</div>

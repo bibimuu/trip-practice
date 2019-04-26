@@ -100,6 +100,45 @@ h1 {
   font-size: 90%;
 }
 
+/* ----------------------------------------------------- */
+/* SECTION */
+/* ----------------------------------------------------- */
+
+h2 {
+  text-align: center;
+  margin: 50px 0px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.info {
+  text-align: center;
+  height: 500px;
+}
+
+.info p {
+  text-align: left;
+  font-size: 90%;
+  width: 18%;
+  margin: 0 auto;
+}
+
+.info img {
+  display: block;
+  margin: 30px auto;
+  border: solid 1px;
+  height: auto;
+  width: 18%;
+}
+
+.infoThree {
+  padding: 34px 0px;
+}
+
+.block {
+  display: inline-block;
+}
+
 /* 
 
 

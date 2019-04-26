@@ -1,3 +1,7 @@
+/* ----------------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------------- */
+
 * {
   padding: 0;
   margin: 0;
@@ -11,6 +15,23 @@ body {
   font-weight: 300;
   text-rendering: optimizeLegibility;
 }
+
+li {
+  list-style: none;
+}
+
+/* ----------------------------------------------------- */
+/* REUSEABLE */
+/* ----------------------------------------------------- */
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* ----------------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------------- */
 
 header {
   background-image: linear-gradient(#9692927c,#9692927c), url(holiday-2880261_1920.jpg);
@@ -48,14 +69,38 @@ h1 {
   display: inline-block;
   padding: 10px;
   text-decoration: none;
-  background-color:  #f0a462a6; 
+  background-color: #f0a462a6; 
   border-radius: 80px;
+  transition: 0.3s; 
 }
 
-
-/* li {
-  list-style: none;
+.company-logo {
+  height: 100%;
+  width: auto;
+  float: left;
+  transform: translate(-66%,-30%);
 }
+
+.header-list {
+  float: right;
+  margin-top: 35px;
+}
+
+.header-list li {
+  display: inline-block;
+  margin-left: 40px;
+  transition: 0.3s;
+
+}
+
+.header-list li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+}
+
+/* 
 
 
 
@@ -65,10 +110,7 @@ font-size: 20px;
 padding: 20px;
 }
 
-.header-list li {
-  float: right;
-  padding: 33px 20px;
-}
+
 
 .main {
   height: 1500px;

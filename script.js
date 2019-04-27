@@ -13,8 +13,8 @@ $(document).ready(function () {
 
   
   $('.info').slick({
-    // autoplay: true,
-    // autoplaySpeed: 5000,
+    autoplay: true,
+    autoplaySpeed: 5000,
     centerMode: true,
     centerPadding: 20,
  　　arrows: false,

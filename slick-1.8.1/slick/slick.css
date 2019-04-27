@@ -130,25 +130,33 @@ button {
     appearance: none;
   }
   
-  .slide-dots {
-    text-align: center;
-  }
-  .slide-dots li {
-    display: inline-block;
-    margin: 10px 30px;
-  }
-  .slide-dots li button {
+.slide-dots li {
     position: relative;
-    text-indent: -9999px;
+    display: inline-block;
+    width: 3%;
+    height: 20%;
+    margin: 0 auto;
+    padding: 0;
   }
-  .slide-dots li button:before {
-    content: '☆';
+
+.slide-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.slide-dots li button:before {
+    content: '●';
     font-size: 20px;
     text-indent: 0px;
     position: absolute;
     top: 0;
     left: 0;
+} 
+  
+.slide-dots li button {
+    text-indent: -9999px;
   }
-  .slide-dots li.slick-active button:before {
-    content: '★';
+  
+.slide-dots li.slick-active button:before {
+    content: '○';
   }

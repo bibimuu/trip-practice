@@ -30,7 +30,7 @@ li {
 }
 
 section {
-  padding: 80px 0px;
+  padding-top: 80px;
 }
 
 /* ----------------------------------------------------- */
@@ -40,17 +40,11 @@ section {
 h1,
 h2,
 h3 {
-  font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
   text-transform: uppercase;
+  font-weight: 300;
 } 
-
-h1 {
-  margin: 20px 0px;
-  font-size: 200%;
-  color: #ffffff;
-}
 
 h2,
 h3{
@@ -69,8 +63,10 @@ h3:after {
   margin: 30px auto 0px auto;
 }
 
-h3 {
-  font-size: 
+h1 {
+  margin: 20px 0px;
+  font-size: 200%;
+  color: #ffffff;
 }
 
 /* ----------------------------------------------------- */
@@ -84,6 +80,13 @@ h3 {
   margin-left: 41%;
   letter-spacing: 0.5px;
   line-height: 145%;
+}
+
+.main-choice p {
+  background-color: #000;
+  display: block;
+  color: #ffffff;
+  margin-top: 10px;
 }
 
 /* ----------------------------------------------------- */
@@ -155,8 +158,6 @@ header {
 .header-list li {
   display: inline-block;
   margin-left: 40px;
-  transition: 0.3s;
-
 }
 
 .header-list li a {
@@ -164,6 +165,7 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 90%;
+  font-weight: 300;
 }
 
 /* ----------------------------------------------------- */
@@ -185,6 +187,7 @@ header {
 
 .main-choice {
   width: 100%;
+  padding: 0;
 }
 
 /* ----------------------------------------------------- */
@@ -192,9 +195,9 @@ header {
 /* ----------------------------------------------------- */
 
 .main-choice ul {
-  display: inline-block;
+  display: block;
   width: 100%;
-  height: 195px;
+  height: 250px;
   overflow: hidden;
 }
 
@@ -204,13 +207,24 @@ header {
 }
 
 .allchoice {
-  background-color: #555555;
-  display: inline;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
 }
 
 .allchoice img {
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.7;
+  transform: scale(1.25);
+  overflow: hidden;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.allchoice img:hover {
+  transform: scale(1);
+  overflow: hidden;
+  opacity: 1;
 }
 
 

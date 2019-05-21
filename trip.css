@@ -46,21 +46,19 @@ h3 {
   font-weight: 300;
 } 
 
-h2,
-h3{
+h2 {
   font-size: 165%;
   text-align: center;
   margin-bottom:20px;
 }
 
-h2:after,
-h3:after {
+h2:after {
   display: block;
   height: 2px;
   width: 100px;
   background-color: #f89238;
   content: " ";
-  margin: 30px auto 0px auto;
+  margin: 30px auto 50px auto;
 }
 
 h1 {
@@ -227,7 +225,20 @@ header {
   opacity: 1;
 }
 
+/* ----------------------------------------------------- */
+/* HOT SPOT*/
+/* ----------------------------------------------------- */
 
+.hot-spot-insta {
+  text-align: center;
+  
+}
+
+.InstaWidget {
+  float: left;
+  display: inline-block;
+  width: 25%;
+}
 
 /* 
 

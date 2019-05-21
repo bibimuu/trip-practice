@@ -114,6 +114,7 @@ h1 {
 #btn2 {
   font-size:80%;
   font-weight: 300;
+  color: #555555;
   border: solid 1px #f89238;
   border-radius: 80px;
   padding: 5px;
@@ -266,12 +267,13 @@ header {
 
 
 
-#text-box {
+#search-query {
   width: 20%;
   margin-left: 40%;
   font-size:80%;
   font-weight: 300;
   outline: 0;
+
 }
 
 

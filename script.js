@@ -22,4 +22,15 @@ $(document).ready(function () {
     dotsClass: 'slide-dots',
     });
 
+  $("#btn2").click(function() {
+    if($("#search-query").val() == "") {
+      alert("入力してください")
+      return false;
+    }
+    
+    const base_url = 'https://www.google.com/search?q='
+    const search_query = $("#search-query").val()
+    const result_url = base_url + search_query
+    window.open(result_url, '_blank');  
+  });
 });

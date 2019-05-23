@@ -23,6 +23,7 @@ $(document).ready(function () {
     });
 
   $("#btn2").click(function() {
+
     if($("#search-query").val() == "") {
       alert("入力してください")
       return false;
@@ -32,5 +33,8 @@ $(document).ready(function () {
     const search_query = $("#search-query").val()
     const result_url = base_url + search_query
     window.open(result_url, '_blank');
+
+
+
   });
 });

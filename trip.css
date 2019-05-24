@@ -284,9 +284,8 @@ header {
 .GuideOfRecruit {
   text-decoration: none;
   background-image: linear-gradient(#464242ad,#464242ad), url(img/office.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  height: 100vh;
   color: #ffffff;
   display: block;
   padding: 50px 100px;

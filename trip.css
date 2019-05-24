@@ -31,6 +31,7 @@ li {
 
 section {
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .clearfix:after {
@@ -74,26 +75,6 @@ h1 {
 }
 
 /* ----------------------------------------------------- */
-/* COMMENTS*/
-/* ----------------------------------------------------- */
-
-.info p {
-  text-align: left;
-  font-size: 80%;
-  width: 18%;
-  margin-left: 41%;
-  letter-spacing: 0.5px;
-  line-height: 145%;
-}
-
-.main-choice p {
-  background-color: #000;
-  display: block;
-  color: #ffffff;
-  margin-top: 10px;
-}
-
-/* ----------------------------------------------------- */
 /* BOTTUNS*/
 /* ----------------------------------------------------- */
 
@@ -114,7 +95,7 @@ h1 {
 #btn2 {
   font-size:80%;
   font-weight: 300;
-  color: #555555;
+  color: #f89238;
   border: solid 1px #f89238;
   border-radius: 80px;
   padding: 5px;
@@ -201,6 +182,15 @@ header {
   display: inline-block;
 }
 
+.info p {
+  text-align: left;
+  font-size: 80%;
+  width: 18%;
+  margin-left: 41%;
+  letter-spacing: 0.5px;
+  line-height: 145%;
+}
+
 /* ----------------------------------------------------- */
 /* SECTION CHOICE*/
 /* ----------------------------------------------------- */
@@ -210,14 +200,9 @@ header {
   padding: 0;
 }
 
-/* ----------------------------------------------------- */
-/* IMG-CHOICE*/
-/* ----------------------------------------------------- */
-
 .main-choice ul {
   display: block;
   width: 100%;
-  height: 250px;
   overflow: hidden;
 }
 
@@ -247,8 +232,23 @@ header {
   opacity: 1;
 }
 
+.main-choice p {
+  background-color: #000;
+  display: block;
+  color: #ffffff;
+  /* margin-top: 10px; */
+}
+
+.space {
+    display: block;
+    height: 2px;
+    width: 1140px;
+    content: " ";
+    margin: 3px auto
+}
+
 /* ----------------------------------------------------- */
-/* HOT SPOT*/
+/* SECTION HOT SPOT*/
 /* ----------------------------------------------------- */
 
 .hot-spot-insta {
@@ -262,10 +262,12 @@ header {
 }
 
 /* ----------------------------------------------------- */
-/* RESEARCH*/
+/* SECTION RESEARCH*/
 /* ----------------------------------------------------- */
 
-
+.WayToTravel {
+  background-color: #f4f4f4;
+}
 
 #search-query {
   width: 20%;
@@ -277,11 +279,51 @@ header {
 }
 
 /* ----------------------------------------------------- */
-/* RECRUIT*/
+/* SECTION RECRUIT*/
 /* ----------------------------------------------------- */
 
 .GuideOfRecruit {
   text-decoration: none;
+  background-image: linear-gradient(#464242ad,#464242ad), url(img/office.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #ffffff;
+  display: block;
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.TwoRecruitStyle a {
+  font-size: 150%;
+  border-bottom: solid 3px #f89238;
+  display: inline-block;
+}
+
+.TwoRecruitStyle a:hover {
+  transform: rotate(5deg);
+}
+
+.TwoRecruitStyle p {
+  margin-bottom: 50px;
+  line-height: 250%;
+  letter-spacing: 0.5px;
+}
+
+.TwoRecruitStyle p:last-child {
+  text-align: left;
+  line-height: 150%;
+}
+
+.TwoRecruitStyle a:link,
+.TwoRecruitStyle a:visited {
+  color: #ffffff;
+}
+
+ion-icon {
+  position: relative;
+  top: 5px;
+  right: 5px;
 }
 
 /* 

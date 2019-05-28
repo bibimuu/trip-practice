@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">
   <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
   <link rel="stylesheet" href="css/3cols.css">
+  <link rel="stylesheet" href="  css/2cols.css">
   <link rel="stylesheet" href="css/col.css">
 </head>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
@@ -308,7 +309,7 @@
     </div>
   </section>
   
-  <section class="contact-form">
+  <section class="contact-form clearfix">
     <div class="row">
       <h2>Contact form</h2>
     </div>
@@ -316,7 +317,7 @@
       <form method="post" action="#" class="contact-area">
         <div class="row">
           <div class="col span_1_of_3">
-            <label>NAME</label>
+            <label for="name">NAME</label>
           </div>
           <div class="col span_2_of_3"">
             <input type="text" name="name" id="name" placeholder="Your name" required autocomplete="off">
@@ -324,10 +325,10 @@
         </div>
         <div class="row">
           <div class="col span_1_of_3">
-            <label>E-MAIL</label>
+            <label for="email">E-MAIL</label>
           </div>
           <div class="col span_2_of_3"">
-            <input type="text" name="email" id="email" placeholder="Your e-mail" required autocomplete="off">
+            <input type="email" name="email" id="email" placeholder="Your e-mail" required autocomplete="off">
           </div>
         </div>
         <div class="row">
@@ -335,12 +336,67 @@
             <label>JOB</label>
           </div>
           <div class="col span_2_of_3"">
-            <input type="text" name="job" id="job" placeholder="Your job" required autocomplete="off">
+            <select name="job" id="job">
+              <option value="student" selected>STUDENT</option>
+              <option value="engineer">ENGINEER</option>
+              <option value="designer">DESIGNER</option>
+              <option value="other">OTHER</option>
+            </select>
           </div>
         </div>
+        <div class="row">
+          <div class="col span_1_of_3">
+            <label>EVALUATION</label>
+          </div>
+          <div class="col span_2_of_3"">
+            <input type="checkbox" name="evaluation" id="evaluation" checked>Do you like this service?
+          </div>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_3">
+              <label>MESSAGE</label>
+            </div>
+            <div class="col span_2_of_3"">
+              <textarea name="message" placeholder="Your message"></textarea>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col span_1_of_3">
+                <label>&nbsp;</label>
+              </div>
+              <div class="col span_2_of_3"">
+                <input type="submit" value="SEND"></textarea>
+              </div>
+            </div>
       </form>
     </div>
   </section>
+
+  <div class="footer">
+      <div class="col span-1-of-2">
+        <ul class="footer-sns">
+          <li><a href="https://www.instagram.com/dai5612/?hl=ja"><img src="img/IGLogo.jpg"></a></li>
+          <li><a href="https://twitter.com/q7_q5"><img src="img/twitterLogo.png"></a></li>
+          <li><a href="https://www.facebook.com/"><img src="img/facebookLogo.png"></a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="row">
+      <p>LOOKING FOR NEW THINGS IN YOUR TRIP</p>
+      <p>Copyright &copy; 2019 by DAIGORO All rights reserved.</p>
+    </div>
+  
+    <div class="row">
+        <div class="col span-1-of-2">
+          <ul class="footer-list">
+            <li>Adress : Tokyo</li>
+            <li>Phone : 1234-12-1234</li>
+            <li>E-mail : ryokousuki@amail.com</li>
+          </ul>
+        </div>
+
+  </div>
 
     <!-- <input type="text" name="q">
     <button type="submit">search</button> -->
@@ -355,28 +411,7 @@
 
   
 
-  <div class="footer">
-
-    <div class="footer-list">
-      <ul>
-        <li>Adress : Tokyo</li>
-        <li>Phone : 1234-12-1234</li>
-        <li>E-mail : ryokousuki@amail.com</li>
-        <li>Copyright©︎DAIGORO</li>
-      </ul>
-    </div>
-
-    <div class="footer-sns">
-      <ul>
-        <li><a href="https://www.instagram.com/dai5612/?hl=ja"><img src="IGLogo.jpg"></a></li>
-        <li><a href="https://twitter.com/q7_q5"><img src="twitterLogo.png"></a></li>
-        <li><a href="https://www.facebook.com/"><img src="facebookLogo.png"></a></li>
-      </ul>
-    </div>
-
-    <div class="footer-comment"><h1>LOOKING FOR NEW THINGS IN YOUR TRIP</h1></div>
-
-  </div> -->
+  
 
   <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 </body>

@@ -276,7 +276,6 @@ header {
   font-size:80%;
   font-weight: 300;
   outline: 0;
-
 }
 
 /* ----------------------------------------------------- */
@@ -349,6 +348,14 @@ textarea {
   border: 1px solid #ccc;
 }
 
+
+input,
+select,
+textarea {
+  font-size:80%;
+  font-weight: 300;
+}
+
 textarea {
   height: 100px;
 }
@@ -365,63 +372,46 @@ input[type=checkbox] {
 /* SECTION FOOTER*/
 /* ----------------------------------------------------- */
 
-.footer {
-  background-color: #8C8B8C;
-  height: 150px;
-  padding: 40px;
-}
-
-.footer-list {
-  float: right;
-  }
-
-.footer-list li {
- padding-bottom: 20px;
+footer {
+  background-color: #333;
+  color:#ffffff;
+  font-size: 90%;
+  padding: 10px;
 }
 
 .footer-sns {
   float: left;
 }
 
+.footer-list {
+  float: right;
+  }
+
 .footer-sns li {
-  padding: 20px;
-  float: left;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-list li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-sns li:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .footer-sns img {
-width: 50px;
-height: 50px;
+width: 35px;
+height: auto;
 border-radius: 50%;
 }
 
-.footer-comment{
+footer p {
   text-align: center;
-  padding-top: 30px;
-} */
-
-/* 
-
-
-
-.header-logo {
-float: left;
-font-size: 20px;
-padding: 20px;
 }
 
-
-
-.main {
-  height: 1500px;
+footer p:first-child {
+  margin-bottom: 10px;
 }
-
-
-
-
-.contact-form {
-  height: 300px;
-  background-color: #000000;
-  text-align: center;
-  padding: 20px;
-}
-

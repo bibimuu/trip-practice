@@ -8,12 +8,15 @@
   box-sizing: border-box;
 }
 
+html,
 body {
-  font-family: 'Lato', 'Arial', 'sans-serif';
-  color: #555555;
-  font-size: 20px;
+  background-color: #fff;
+  color: #555;
+  font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
+  font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 li {
@@ -54,7 +57,7 @@ h3 {
 } 
 
 h2 {
-  font-size: 165%;
+  font-size: 200%;
   text-align: center;
   margin-bottom:20px;
 }
@@ -115,7 +118,7 @@ input[type=submit]:hover {
 /* ----------------------------------------------------- */
 
 header {
-  background-image: linear-gradient(#9692927c,#9692927c), url(img/holiday-2880261_1920.jpg);
+  background-image: linear-gradient(#1f1d1dc9,#2c2b2b7c), url(img/holiday-2880261_1920.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -177,7 +180,6 @@ header {
 
 .info {
   text-align: center;
-  height: 500px;
 }
 
 .block {
@@ -238,6 +240,7 @@ header {
   background-color: #000;
   display: block;
   color: #ffffff;
+  padding-left: 5px;
 }
 
 .space {

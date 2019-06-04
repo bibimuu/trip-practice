@@ -99,6 +99,7 @@ h1 {
 input[type=submit] {
   font-size:80%;
   font-weight: 300;
+  background-color: #fff;
   color: #f89238;
   border: solid 1px #f89238;
   border-radius: 80px;
@@ -130,18 +131,6 @@ header {
   width: auto;
   float: left;
   transform: translate(-66%,-30%);
-}
-
-.info img {
-  display: block;
-  margin: 30px auto;
-  border: solid 1px;
-  height: auto;
-  width: 18%;
-}
-
-.infoThree {
-  padding: 34px 0px;
 }
 
 /* ----------------------------------------------------- */
@@ -193,6 +182,18 @@ header {
   margin-left: 41%;
   letter-spacing: 0.5px;
   line-height: 145%;
+}
+
+.info img {
+  display: block;
+  margin: 30px auto;
+  border: solid 1px;
+  height: auto;
+  width: 18%;
+}
+
+.infoThree {
+  padding: 34px 0px;
 }
 
 /* ----------------------------------------------------- */

@@ -1,0 +1,134 @@
+
+@media only screen and (max-width: 1200px) {
+  .row {
+    padding: 0 15px;
+  }
+  .company-logo {
+    transform: translate(-1%,-30%);
+  }
+
+  .header-cover-comment {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .header-list {
+    padding-right: 15px;
+  }
+
+  section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+
+  .info p {
+    font-size: 80%;
+    width: 50%;
+    letter-spacing: 0.5px;
+    line-height: 145%;
+    margin-left: 25%;
+  }
+
+  .InstaWidget {
+    width: 50%;
+  }
+
+  #btn2,
+  input[type=submit] {
+    font-size:100%;
+    color: #f89238;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  header {
+    background-image: linear-gradient(#7a797970,#2c2b2b7c), url(img/holiday-2880261_1920.jpg);
+  }
+
+   body {
+    font-size: 15px;
+  }
+
+  .header-list li{
+    display: none;
+  }
+
+  .info img {
+    width: 30%;
+  }
+
+  .info p {
+    font-size: 100%;
+    width: 50%;
+    letter-spacing: 1px;
+    line-height: 145%;
+  }
+
+  .InstaWidget {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .col {
+    float:none;
+  }
+
+  .span_2_of_3 {
+    width: 100%;
+  }
+
+  input[type=text],
+  input[type=email],
+  select,
+  textarea {
+    margin-bottom: 15px;
+  }
+
+  input,
+  select,
+  textarea {
+  font-size: 100%;
+  font-weight: 300;
+}
+
+  #no-label {
+    display: none;
+  }
+
+  input[type=submit] {
+    margin-left: 0;
+}
+
+.footer-sns {
+  float: none;
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  float: none;
+  margin-bottom: 20px;
+  }
+
+  footer .col {
+    text-align: center;
+  }
+
+  footer .span_1_of_2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 896px) and (min-width: 481px) and (orientation: portrait) {
+  #search-query {
+    width: 30%;
+    margin-left: 35%;
+  }
+}

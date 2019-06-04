@@ -115,7 +115,7 @@ input[type=submit]:hover {
 }
 
 /* ----------------------------------------------------- */
-/* IMG-HEADER*/
+/* HEADER*/
 /* ----------------------------------------------------- */
 
 header {
@@ -130,12 +130,8 @@ header {
   height: 100%;
   width: auto;
   float: left;
-  transform: translate(-66%,-30%);
+  transform: translate(-6%,-30%);
 }
-
-/* ----------------------------------------------------- */
-/* HEADER */
-/* ----------------------------------------------------- */
 
 .header-cover-comment {
   position: absolute;

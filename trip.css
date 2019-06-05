@@ -104,7 +104,6 @@ input[type=submit] {
   border: solid 1px #f89238;
   border-radius: 80px;
   padding: 5px;
-  margin-left: 3%;
   transition: 0.3s; 
 }
 
@@ -115,7 +114,7 @@ input[type=submit]:hover {
 }
 
 /* ----------------------------------------------------- */
-/* IMG-HEADER*/
+/* HEADER*/
 /* ----------------------------------------------------- */
 
 header {
@@ -130,12 +129,8 @@ header {
   height: 100%;
   width: auto;
   float: left;
-  transform: translate(-66%,-30%);
+  transform: translate(-6%,-30%);
 }
-
-/* ----------------------------------------------------- */
-/* HEADER */
-/* ----------------------------------------------------- */
 
 .header-cover-comment {
   position: absolute;
@@ -161,6 +156,14 @@ header {
   text-transform: uppercase;
   font-size: 90%;
   font-weight: 300;
+}
+
+.stickynav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(226, 220, 220, 0.966);
 }
 
 /* ----------------------------------------------------- */

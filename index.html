@@ -13,32 +13,33 @@
   <link rel="stylesheet" href="responsivegridsystem (1)/css/col.css">
   <link rel="stylesheet" href="queries.css">
 </head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="slick-1.8.1/slick/slick.js"></script>
   <title>旅行先を見つけよう</title>
 </head>
 <body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="slick-1.8.1/slick/slick.js"></script>
+<script src="jquery.waypoints.min.js"></script>
 <script src="script.js"></script>
 <script src="btn2.js"></script>
   <header>
-    <nav>
       <div class="row">
-          <img src="img/company-logo.png" class="company-logo">
-          <ul div class="header-list stickynav">
-              <li><a href="#main-info">お知らせ</a></li>
-              <li><a href="fake">行き先を決める</a></li>
-              <li><a href="fake">採用情報</a></li>
-              <li><a href="fake">お問い合わせ</a></li>
-            </ul>
+        <img src="img/company-logo.png" class="company-logo">
+        <nav class="header-list">
+          <ul>
+            <li><a href="#main-info">お知らせ</a></li>
+            <li><a href="fake">行き先を決める</a></li>
+            <li><a href="fake">採用情報</a></li>
+            <li><a href="fake">お問い合わせ</a></li>
+          </ul>
+        </nav>
       </div>
-    </nav>
       <div class="header-cover-comment">
         <h1>Every day is a new day.</h1>
         <a class="btn" href="fake">Make your trip</a>
       </div>
   </header>
 
-  <section class="main-info" id="main-info">
+  <section class="main-info js--main-info" id="main-info">
     <div class="row">
       <h2>INFORMATION</h2>
       <div class="info">

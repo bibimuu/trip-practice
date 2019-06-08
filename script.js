@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
   $('.btn').hover(function() {
     $(this).css('background-color', '#f89238');
   }, function() {
@@ -6,7 +7,7 @@ $(document).ready(function () {
   });
 
   $('.header-list li').hover(function() {
-    $(this).css('border-bottom', '#f89238 solid 3px');
+    $(this).css('border-bottom', '#f89238 solid 2.5px');
   }, function() {
     $(this).css('border-bottom', 'none');
   });
@@ -22,19 +23,26 @@ $(document).ready(function () {
     dotsClass: 'slide-dots',
     });
 
+  // 検索
   $("#btn2").click(function() {
-
     if($("#search-query").val() == "") {
       alert("入力してください")
       return false;
     }
-    
     const base_url = 'https://www.google.com/search?q='
     const search_query = $("#search-query").val()
     const result_url = base_url + search_query
     window.open(result_url, '_blank');
-
-
-
   });
+
+  // スクロール
+  $('.js--main-info').waypoint(function(direction){
+    if(direction=="down") {
+      $('nav').addClass('stickynav');
+    } else {
+      $('nav').removeClass('stickynav');
+    }
+  });
+
+
 });

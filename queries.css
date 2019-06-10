@@ -16,6 +16,10 @@
     padding-right: 15px;
   }
 
+  .main-choice h2 {
+    padding-top: 90px;
+  }
+
   section {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -49,16 +53,23 @@
 
 @media (max-width: 767px) {
 
-  header {
-    background-image: linear-gradient(#7a797970,#2c2b2b7c), url(img/holiday-2880261_1920.jpg);
-  }
-
    body {
     font-size: 15px;
   }
 
-  .header-list li{
-    display: none;
+  .header-list {
+    padding-top: 20px;
+  }
+
+  .header-list li {
+    display: block;
+    margin: 0 0 15px 0;
+    padding-top: 10px;
+    height: 10px;
+  }
+
+  .header-list ion-icon {
+    display: inline-block;
   }
 
   .info img {
@@ -130,5 +141,11 @@
   #search-query {
     width: 30%;
     margin-left: 35%;
+  }
+
+  .header-list li {
+    text-align: center;
+    display: block;
+    padding: 10px;
   }
 }
